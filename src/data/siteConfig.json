@@ -1,0 +1,54 @@
+{
+  "siteName": "FirstBank",
+  "siteTitle": "FirstBank - Secure Online Banking",
+  "siteDescription": "Experience next-generation banking with FirstBank's advanced security, real-time transactions, and personalized services.",
+  "contact": {
+    "phone": {
+      "main": "+234 (1) 4485500",
+      "support": "+234 (1) 4485600",
+      "tollfree": "1-800-FIRSTBANK"
+    },
+    "email": {
+      "general": "firstcontact@firstbank.com",
+      "support": "support@firstbank.com"
+    },
+    "address": {
+      "main": "Samuel Asabia House, 35 Marina, Lagos Island, Lagos, Nigeria"
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/firstbank",
+    "twitter": "https://twitter.com/firstbank",
+    "linkedin": "https://linkedin.com/company/firstbank",
+    "instagram": "https://instagram.com/firstbank",
+    "youtube": "https://youtube.com/firstbank"
+  },
+  "urls": {
+    "onlineBanking": "https://online.firstbank.com/login",
+    "openAccount": "/personal-banking/open-account",
+    "applyCard": "/personal-banking/cards",
+    "applyLoan": "/personal-banking/loans",
+    "budgetingTools": "/personal-banking/manage",
+    "savingsGoals": "/personal-banking/manage",
+    "faqs": "/support/faqs",
+    "support": "/support",
+    "submitApplication": "/personal-banking/submit-application"
+  },
+  "images": {
+    "logo": "/images/logo.svg",
+    "hero": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&q=80&w=2000",
+    "about": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000",
+    "personalBanking": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800",
+    "cards": {
+      "classic": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800",
+      "premium": "https://images.unsplash.com/photo-1589758438368-0ad531db3366?auto=format&fit=crop&q=80&w=800",
+      "debit": "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&q=80&w=800"
+    },
+    "partners": {
+      "bankOfEngland": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=200",
+      "visa": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/200px-Visa_Inc._logo.svg.png",
+      "mastercard": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/200px-Mastercard-logo.svg.png",
+      "bitcoin": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/200px-Bitcoin.svg.png"
+    }
+  }
+}
