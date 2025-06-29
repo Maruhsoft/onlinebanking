@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Header from './components/Header';
+import { Toaster } from 'react-hot-toast';
+import EnhancedHeader from './components/enhanced/EnhancedHeader';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -12,16 +13,20 @@ import BusinessBankingPage from './pages/BusinessBankingPage';
 import DigitalBankingPage from './pages/DigitalBankingPage';
 import InvestmentPage from './pages/InvestmentPage';
 import SupportPage from './pages/SupportPage';
+import SearchPage from './pages/SearchPage';
 import NotFoundPage from './pages/NotFoundPage';
+import Dashboard from './components/enhanced/Dashboard';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-white">
-        <Header />
+        <EnhancedHeader />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/terms" element={<TermsPage />} />
@@ -36,6 +41,30 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            duration: 4000,
+            style: {
+              background: '#363636',
+              color: '#fff',
+            },
+            success: {
+              duration: 3000,
+              iconTheme: {
+                primary: '#4ade80',
+                secondary: '#fff',
+              },
+            },
+            error: {
+              duration: 4000,
+              iconTheme: {
+                primary: '#ef4444',
+                secondary: '#fff',
+              },
+            },
+          }}
+        />
       </div>
     </Router>
   );

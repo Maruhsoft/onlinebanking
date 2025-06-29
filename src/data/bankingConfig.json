@@ -1,0 +1,341 @@
+{
+  "bank": {
+    "name": "FirstBank",
+    "fullName": "First Bank International Limited",
+    "establishedYear": 1894,
+    "headquarters": "London, United Kingdom",
+    "swiftCode": "FBINTLGB",
+    "routingNumber": "011000015",
+    "bicCode": "FBINTLGB001",
+    "registrationNumber": "RC 6290",
+    "license": "FCA/2023/001",
+    "fdic": "FDIC-Insured",
+    "regulatoryBodies": ["FCA", "PRA", "FDIC", "SEC"],
+    "compliance": {
+      "psd2": true,
+      "openBanking": true,
+      "soc2": true,
+      "iso27001": true,
+      "gdpr": true,
+      "ccpa": true,
+      "pciDss": true,
+      "basel3": true
+    }
+  },
+  "urls": {
+    "onlineBanking": "https://ebanking.example.com",
+    "openAccount": "https://ebanking.example.com/open-account",
+    "applyCard": "https://ebanking.example.com/apply-card",
+    "applyLoan": "https://ebanking.example.com/apply-loan",
+    "learnMore": "https://ebanking.example.com/about",
+    "contactUs": "https://ebanking.example.com/contact",
+    "support": "https://ebanking.example.com/support",
+    "dashboard": "https://ebanking.example.com/dashboard",
+    "budgetingTools": "https://ebanking.example.com/tools/budget",
+    "savingsGoals": "https://ebanking.example.com/tools/savings",
+    "faqs": "https://ebanking.example.com/help/faqs",
+    "submitApplication": "https://ebanking.example.com/submit-application",
+    "mobileApp": {
+      "ios": "https://apps.apple.com/app/firstbank",
+      "android": "https://play.google.com/store/apps/details?id=com.firstbank"
+    },
+    "investmentPlanning": "https://ebanking.example.com/investments/planning",
+    "wealthAdvisory": "https://ebanking.example.com/wealth/advisory",
+    "businessBanking": "https://ebanking.example.com/business",
+    "digitalBanking": "https://ebanking.example.com/digital"
+  },
+  "contact": {
+    "headquarters": {
+      "address": "25 Bank Street, Canary Wharf, London E14 5JP, United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      }
+    },
+    "phone": {
+      "main": "+44 20 7946 0958",
+      "support": "+44 20 7946 0959",
+      "international": "+44 20 7946 0960",
+      "tollfree": "0800-FIRSTBANK",
+      "emergency": "+44 20 7946 0911"
+    },
+    "email": {
+      "general": "info@firstbank.com",
+      "support": "support@firstbank.com",
+      "complaints": "complaints@firstbank.com",
+      "security": "security@firstbank.com",
+      "media": "media@firstbank.com"
+    },
+    "hours": {
+      "branches": "Monday-Friday: 9:00 AM - 5:00 PM",
+      "callCenter": "24/7",
+      "onlineBanking": "24/7",
+      "mobileApp": "24/7"
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/firstbankinternational",
+    "twitter": "https://twitter.com/firstbankinternational",
+    "linkedin": "https://linkedin.com/company/firstbank-international",
+    "instagram": "https://instagram.com/firstbankinternational",
+    "youtube": "https://youtube.com/firstbankinternational",
+    "tiktok": "https://tiktok.com/@firstbankinternational"
+  },
+  "products": {
+    "personalBanking": {
+      "accounts": {
+        "savings": {
+          "name": "FirstSave Account",
+          "minBalance": 100,
+          "interestRate": 3.5,
+          "features": ["Mobile Banking", "ATM Access", "Online Banking", "SMS Alerts"],
+          "fees": {
+            "maintenance": 0,
+            "atmWithdrawal": 2.50,
+            "transfer": 1.50
+          }
+        },
+        "current": {
+          "name": "FirstCurrent Account",
+          "minBalance": 500,
+          "interestRate": 0.5,
+          "features": ["Checkbook", "Overdraft Facility", "Business Tools", "Priority Support"],
+          "fees": {
+            "maintenance": 10,
+            "atmWithdrawal": 2.50,
+            "transfer": 1.50
+          }
+        },
+        "student": {
+          "name": "FirstStudent Account",
+          "minBalance": 50,
+          "interestRate": 2.0,
+          "features": ["No Monthly Fees", "Student Discounts", "Educational Resources"],
+          "fees": {
+            "maintenance": 0,
+            "atmWithdrawal": 0,
+            "transfer": 0.75
+          }
+        }
+      },
+      "cards": {
+        "debit": {
+          "classic": {
+            "name": "FirstCard Classic",
+            "annualFee": 25,
+            "features": ["Contactless Payment", "Global Acceptance", "Online Shopping"],
+            "limits": {
+              "daily": 1500,
+              "monthly": 10000
+            }
+          },
+          "gold": {
+            "name": "FirstCard Gold",
+            "annualFee": 75,
+            "features": ["Higher Limits", "Travel Insurance", "Purchase Protection"],
+            "limits": {
+              "daily": 5000,
+              "monthly": 50000
+            }
+          }
+        },
+        "credit": {
+          "classic": {
+            "name": "FirstCredit Classic",
+            "annualFee": 95,
+            "apr": 24.9,
+            "features": ["0% Intro APR", "Rewards Program", "Fraud Protection"],
+            "creditLimit": 5000
+          },
+          "premium": {
+            "name": "FirstCredit Premium",
+            "annualFee": 295,
+            "apr": 19.9,
+            "features": ["Airport Lounge Access", "Concierge Service", "Travel Benefits"],
+            "creditLimit": 25000
+          }
+        }
+      },
+      "loans": {
+        "personal": {
+          "name": "FirstPersonal Loan",
+          "interestRate": 12.5,
+          "maxAmount": 50000,
+          "maxTerm": 60,
+          "features": ["Quick Approval", "Flexible Repayment", "No Collateral"]
+        },
+        "home": {
+          "name": "FirstHome Loan",
+          "interestRate": 8.5,
+          "maxAmount": 500000,
+          "maxTerm": 360,
+          "features": ["Competitive Rates", "Property Insurance", "Tax Benefits"]
+        },
+        "auto": {
+          "name": "FirstAuto Loan",
+          "interestRate": 10.5,
+          "maxAmount": 100000,
+          "maxTerm": 84,
+          "features": ["Quick Processing", "Flexible Tenure", "New & Used Cars"]
+        }
+      }
+    },
+    "businessBanking": {
+      "accounts": {
+        "sme": {
+          "name": "FirstBusiness SME",
+          "minBalance": 1000,
+          "features": ["Business Advisory", "POS Terminals", "Trade Finance"],
+          "fees": {
+            "maintenance": 25,
+            "transactions": 2.50
+          }
+        },
+        "corporate": {
+          "name": "FirstCorporate Account",
+          "minBalance": 25000,
+          "features": ["Dedicated RM", "Treasury Services", "International Banking"],
+          "fees": {
+            "maintenance": 150,
+            "transactions": 5.00
+          }
+        }
+      }
+    }
+  },
+  "security": {
+    "encryption": "256-bit SSL/TLS",
+    "authentication": {
+      "2fa": true,
+      "biometric": true,
+      "otp": true,
+      "hardwareToken": true
+    },
+    "fraudDetection": {
+      "realTime": true,
+      "aiPowered": true,
+      "behaviorAnalysis": true,
+      "deviceFingerprinting": true
+    },
+    "compliance": {
+      "pciDss": "Level 1",
+      "iso27001": "Certified",
+      "soc2": "Type II",
+      "gdpr": "Compliant"
+    }
+  },
+  "legal": {
+    "terms": {
+      "lastUpdated": "2024-01-15",
+      "version": "3.2",
+      "effectiveDate": "2024-02-01"
+    },
+    "privacy": {
+      "lastUpdated": "2024-01-15",
+      "version": "2.8",
+      "effectiveDate": "2024-02-01"
+    },
+    "disclaimers": {
+      "investment": "Investment products are not FDIC insured and may lose value.",
+      "rates": "Interest rates are subject to change without notice.",
+      "fees": "Fees and charges may apply. See fee schedule for details."
+    }
+  },
+  "support": {
+    "channels": {
+      "phone": {
+        "available": "24/7",
+        "languages": ["English", "Spanish", "French", "German"]
+      },
+      "chat": {
+        "available": "24/7",
+        "ai": true,
+        "human": true
+      },
+      "email": {
+        "responseTime": "24 hours",
+        "languages": ["English"]
+      },
+      "branch": {
+        "locations": 250,
+        "agents": 15000
+      }
+    },
+    "sla": {
+      "uptime": "99.9%",
+      "responseTime": "< 2 seconds",
+      "resolution": "< 24 hours"
+    }
+  },
+  "localization": {
+    "languages": ["en", "es", "fr", "de"],
+    "currencies": ["USD", "EUR", "GBP", "CAD"],
+    "dateFormats": {
+      "en": "MM/DD/YYYY",
+      "es": "DD/MM/YYYY",
+      "fr": "DD/MM/YYYY",
+      "de": "DD.MM.YYYY"
+    }
+  },
+  "notifications": {
+    "system": {
+      "maintenance": "Scheduled maintenance on {date} from {startTime} to {endTime}",
+      "outage": "We are experiencing technical difficulties. Service will be restored shortly.",
+      "update": "New features have been added to your banking experience."
+    },
+    "security": {
+      "loginSuccess": "Successful login from {device} at {time}",
+      "loginFailed": "Failed login attempt from {device} at {time}",
+      "passwordChanged": "Your password has been successfully changed",
+      "suspiciousActivity": "Suspicious activity detected on your account"
+    },
+    "transaction": {
+      "debit": "Your account has been debited with {amount} for {description}",
+      "credit": "Your account has been credited with {amount} from {source}",
+      "transfer": "Transfer of {amount} to {recipient} was successful",
+      "failed": "Transaction of {amount} failed. Please try again."
+    }
+  },
+  "errors": {
+    "authentication": {
+      "invalidCredentials": "Invalid username or password",
+      "accountLocked": "Account temporarily locked due to multiple failed attempts",
+      "sessionExpired": "Your session has expired. Please log in again",
+      "twoFactorRequired": "Two-factor authentication required"
+    },
+    "transaction": {
+      "insufficientFunds": "Insufficient funds to complete this transaction",
+      "dailyLimitExceeded": "Daily transaction limit exceeded",
+      "invalidAccount": "Invalid account number provided",
+      "networkError": "Network error. Please try again later"
+    },
+    "system": {
+      "maintenance": "System is under maintenance. Please try again later",
+      "serverError": "Internal server error. Our team has been notified",
+      "timeout": "Request timed out. Please try again"
+    }
+  },
+  "marketing": {
+    "campaigns": {
+      "newCustomer": {
+        "title": "Welcome to FirstBank",
+        "subtitle": "Experience banking like never before",
+        "cta": "Open Account Today",
+        "benefits": ["No monthly fees", "24/7 support", "Mobile banking"]
+      },
+      "creditCard": {
+        "title": "Get Your FirstCredit Card",
+        "subtitle": "Enjoy exclusive benefits and rewards",
+        "cta": "Apply Now",
+        "benefits": ["0% intro APR", "Cashback rewards", "Travel insurance"]
+      }
+    },
+    "promotions": {
+      "studentAccount": {
+        "discount": 100,
+        "validUntil": "2024-12-31",
+        "terms": "Valid for new student accounts only"
+      }
+    }
+  }
+}

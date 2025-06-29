@@ -2,37 +2,38 @@
   "siteName": "FirstBank",
   "siteTitle": "FirstBank - Secure Online Banking",
   "siteDescription": "Experience next-generation banking with FirstBank's advanced security, real-time transactions, and personalized services.",
+  "companyName": "First Bank International Limited",
   "contact": {
     "phone": {
-      "main": "+234 (1) 4485500",
-      "support": "+234 (1) 4485600",
-      "tollfree": "1-800-FIRSTBANK"
+      "main": "+44 20 7946 0958",
+      "support": "+44 20 7946 0959",
+      "tollfree": "0800-FIRSTBANK"
     },
     "email": {
-      "general": "firstcontact@firstbank.com",
+      "general": "info@firstbank.com",
       "support": "support@firstbank.com"
     },
     "address": {
-      "main": "Samuel Asabia House, 35 Marina, Lagos Island, Lagos, Nigeria"
+      "main": "25 Bank Street, Canary Wharf, London E14 5JP, United Kingdom"
     }
   },
   "social": {
-    "facebook": "https://facebook.com/firstbank",
-    "twitter": "https://twitter.com/firstbank",
-    "linkedin": "https://linkedin.com/company/firstbank",
-    "instagram": "https://instagram.com/firstbank",
-    "youtube": "https://youtube.com/firstbank"
+    "facebook": "https://facebook.com/firstbankinternational",
+    "twitter": "https://twitter.com/firstbankinternational",
+    "linkedin": "https://linkedin.com/company/firstbank-international",
+    "instagram": "https://instagram.com/firstbankinternational",
+    "youtube": "https://youtube.com/firstbankinternational"
   },
   "urls": {
-    "onlineBanking": "https://online.firstbank.com/login",
-    "openAccount": "/personal-banking/open-account",
-    "applyCard": "/personal-banking/cards",
-    "applyLoan": "/personal-banking/loans",
-    "budgetingTools": "/personal-banking/manage",
-    "savingsGoals": "/personal-banking/manage",
-    "faqs": "/support/faqs",
-    "support": "/support",
-    "submitApplication": "/personal-banking/submit-application"
+    "onlineBanking": "https://ebanking.example.com",
+    "openAccount": "https://ebanking.example.com/open-account",
+    "applyCard": "https://ebanking.example.com/apply-card",
+    "applyLoan": "https://ebanking.example.com/apply-loan",
+    "budgetingTools": "https://ebanking.example.com/tools/budget",
+    "savingsGoals": "https://ebanking.example.com/tools/savings",
+    "faqs": "https://ebanking.example.com/help/faqs",
+    "support": "https://ebanking.example.com/support",
+    "submitApplication": "https://ebanking.example.com/submit-application"
   },
   "images": {
     "logo": "/images/logo.svg",
